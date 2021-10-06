@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "component/status-bar.css";
+@import "screen/login.css";
+@import "screen/loading.css";
+@import "variable.css";
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 1000vh;
+}
+
+.login-body {
+  height: 100%;
+}

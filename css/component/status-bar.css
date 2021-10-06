@@ -1,0 +1,30 @@
+.status-bar {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+}
+
+.status-bar__icon {
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 5px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+  text-align: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar__battery {
+  margin-left: 8px;
+}
