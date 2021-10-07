@@ -7,7 +7,7 @@
     <title>SquidGame-participants</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="login-body">
+  <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,12 +22,68 @@
       </div>
     </div>
 
-    <header class="welcome-header"></header>
+    <header class="main-header">
+      <div class="main-header__participants">Participants</div>
+      <div class="main-header__icons">
+        <span class="main-header__icon"><i class="fas fa-search"></i></span>
+        <span class="main-header__icon"><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+    <div class="search">
+      <span><i class="far fa-plus-square"></i></span>
+      <span>Add other participant</span>
+    </div>
+    <div class="main">
+      <div class="main-column main-participant">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MjRfNzcg%2FMDAxNjMyNDgyMTQ5MzI2.0mOjCBUblt-0oZfHWb0BqpkEU3BicaFpOBVjBcbZVaMg.XR3bFLXGlbPPBRWjmNla2iMYVuvPMMEtho2BNZ_FCJIg.PNG.lukada9607%2Fimage.png&type=sc960_832"
+        />
+        <span class="user-number">456</span>
+      </div>
+      <div class="main-column">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MjRfODAg%2FMDAxNjMyNDE2OTE3Mzg3.lJFq1SCGmHcuh14mqsefO-qt0zSb3A4tytsGTOg0LQkg.95OsQt-FpHyOGemwUzOgAPxyjff7qCYGRw0ShBT6Dbcg.JPEG.chohon09%2FO31.jpg&type=a340"
+        />
+        <span class="user-number">145</span>
+      </div>
+      <div class="main-column">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5566%2F2021%2F09%2F24%2F0000057069_009_20210924074454606.png&type=a340"
+        />
+        <span class="user-number">235</span>
+      </div>
+      <div class="main-column">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MjJfMTYx%2FMDAxNjMyMjkxNjQzNzAw.caRek4x2ZY_-0U2DpLDh1AMf4soajLxQ3pYjAt3oNmUg.PFECFl2N_Ws82atHF0JZWrOyTTGhQpl_93yz6KFnx2Ug.JPEG.donghee5995%2F1632291642701.jpg&type=a340"
+        />
+        <span class="user-number">1</span>
+      </div>
+      <div class="main-column">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMDJfMiAg%2FMDAxNjMzMTA5MDg1NjA5.IcZOWDTeRuApI8ow99o2mZS1rNCb8l6hkAD60yIGC2Ig.6b5JP_UC7bt0vyZHynaJAz-uff-tyNG-GzlkGfMmA14g.JPEG.cooljason92%2FSmartSelect%25A3%25DF20211002%25A3%25AD022110%25A3%25DFYouTube.jpg&type=a340"
+        />
+        <span class="user-number">44</span>
+      </div>
+    </div>
 
+    <div class="nav-icons">
+      <span class="nav-icon current-icon"
+        ><a href="participants.html"><i class="fas fa-user current-icon"></i></a
+      ></span>
+      <span class="nav-icon"
+        ><a href="chats.html"><i class="fas fa-comment"></i></a
+      ></span>
+      <span class="nav-icon"
+        ><a href="games.html"><i class="fas fa-gamepad"></i></a
+      ></span>
+      <span class="nav-icon"
+        ><a href="more.html"><i class="fas fa-ellipsis-h"></i></a
+      ></span>
+    </div>
     <div id="loading">
       <div class="loading__icons">
-        <span class="loading__icons__circle"
-          ><i class="fas fa-circle"></i
+        <span class="loading__icons__circle">
+          <i class="fas fa-circle"></i
         ></span>
         <span class="loading__icons__triangle"
           ><i class="fas fa-exclamation-triangle"></i
@@ -36,6 +92,9 @@
           ><i class="fas fa-square"></i
         ></span>
       </div>
+    </div>
+    <div class="media">
+      <h1>Your screen is too big.</h1>
     </div>
     <script
       src="https://kit.fontawesome.com/86fa98bae0.js"

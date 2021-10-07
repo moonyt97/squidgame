@@ -3,8 +3,8 @@
   width: 100%;
   padding: 10px;
   position: fixed;
-  box-sizing: border-box;
   top: 0;
+  background-color: #fff;
 }
 
 .status-bar__icon {

@@ -1,0 +1,32 @@
+.games-main {
+  margin-top: 200px;
+  width: 100%;
+}
+.games-main__column {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-icon {
+  font-size: 80px;
+  margin-bottom: 15px;
+  color: teal;
+  transition: 0.5s;
+}
+
+.game-title {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.game-icon:hover {
+  transform: translateY(-10px);
+  color: var(--color);
+}

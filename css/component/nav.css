@@ -1,0 +1,23 @@
+.nav-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-icon {
+  font-size: 50px;
+  color: rgba(0, 128, 128, 0.727);
+  transition: 0.5s;
+}
+
+.current-icon {
+  color: var(--color);
+}
+
+.nav-icon:not(.current-icon):hover {
+  transform: translateY(-8px);
+  text-shadow: 1px 1px black;
+}

@@ -1,0 +1,21 @@
+.media {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media h1 {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 645px) {
+  .media {
+    display: none;
+  }
+} ;

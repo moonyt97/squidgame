@@ -1,0 +1,31 @@
+.main-chats {
+  margin: 110px 0;
+}
+.main-chats__column {
+  display: flex;
+  justify-content: space-between;
+}
+.user-container {
+  display: flex;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user .user-number {
+  margin-bottom: 5px;
+}
+
+.user .user-chat {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-chats__noread {
+  padding: 5px 8px;
+  border-radius: 50%;
+  background-color: var(--color);
+  color: white;
+}
