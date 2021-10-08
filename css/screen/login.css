@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .welcome-header__title {
@@ -29,6 +30,7 @@
   align-items: center;
   padding: 0 50px;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 .login-form input:first-child,
 .login-form input:nth-child(2) {
